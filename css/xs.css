@@ -1,0 +1,101 @@
+header{
+    width: 100%;
+}
+header .banner{
+    width: 100%;
+    height: 35px;
+}
+header .banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header .menu1{
+    width: 100%;
+    height: 68px;
+    padding: 0 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+header .menu1 .logo {
+    display: none;
+}
+header .menu1 .search{
+    width: 100%;
+    height: 100%;
+}
+header .menu1 .search form{
+    width: 100%;
+    height: 100%;
+}
+header .menu1 .search form label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+header .menu1 .search form label img{
+    width: 90px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 110px;
+    transform: translateY(-50%);
+}
+header .menu1 .search form label svg{
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+}
+header .menu1 .search form label input{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 44px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-right: 50px;
+}
+header .menu1 .buttons{
+    display: none;
+}
+.menu{
+    display: none;
+}
+.minimenu{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+}
+.minimenu .minimenu_nav{
+    height: 100%;
+    
+}
+.minimenu .minimenu_nav .minimenu_list{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.minimenu .minimenu_nav .minimenu_list .minimenu_item{
+    color: rgb(128, 128, 128);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items:center ;
+
+}
+#closecity,#opencity{
+    display: none;
+}
+.citycover{
+    display: none;
+}
+
