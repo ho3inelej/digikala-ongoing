@@ -805,11 +805,11 @@ border: 1px solid grey;
 }
 .category1 .category-item1 span{
     font-weight: 700;
-    transform: translate(360%,80%);
 }
 .category1 .category-item1 .category-detail1{
     width: 190px;
     height: 130px;
+    flex-flow: column nowrap;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -829,11 +829,11 @@ border: 1px solid grey;
 }
 .category1 .category-item2  span{
     font-weight: 700;
-    transform: translate(360%,80%);
 }
 .category1 .category-item2 .category-detail2{
     width: 190px;
     height: 130px;
+    flex-flow: column nowrap;
     display: flex;
     justify-content: center;
     align-items: center;
