@@ -240,8 +240,7 @@ flex-basis: 20%;
 }
 /* slider2 */
 .slider2 {
-    position: absolute;
-    right: 10%;
+  transform: translateX(-15%);
   width: 79%;
   height: 300px;
   background-color: crimson;
